@@ -1,7 +1,7 @@
 import express from 'express';
 const router = express.Router();
 
-//just a test data
+//just a test 
 let data = ["cat", "dog", "fish", "bird"];
 const getDocumnets = (req, res) => {
     try{
