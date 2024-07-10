@@ -9,6 +9,7 @@ import { ThreadFilesModule } from './thread_files/thread_files.module';
 import { ThreadsModule } from './threads/threads.module';
 import { TicketsModule } from './tickets/tickets.module';
 import { UsersModule } from './users/users.module';
+import { GoogleDomainModule } from './support_email_integrations/integration_domains/google_domais/google.module';
 import { datasource } from './config/data-source';
 
 @Module({
@@ -27,6 +28,7 @@ import { datasource } from './config/data-source';
     ThreadFilesModule,
     ProjectsModule,
     SupportEmailIntegrationsModule,
+    GoogleDomainModule,
     // TypeOrmModule.forRoot({
     //   type: process.env.DB_TYPE as any,
     //   host: process.env.PG_HOST,
